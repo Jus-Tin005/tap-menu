@@ -1,0 +1,35 @@
+body {
+        background-color: #213343;
+}
+
+.container {
+        margin-top: 100px;
+        margin-left: 200px;
+}
+
+.tabMenus {
+        position: relative;
+}
+
+.tabMenus ul {
+        margin: 0;
+        padding: 0;
+}
+
+
+.tabMenus li {
+        list-style: none;
+        display: inline-block;
+        background-color: rgba(241,133,159,0.83);
+        color: #fff;
+        cursor: pointer;
+        padding: 10px 20px;
+        user-select: none;
+
+}
+
+.slider {
+        height: 5px;
+        background-color: rgba(30,255,44,0.69);
+        transition: all .4s ease-in-out;
+}
